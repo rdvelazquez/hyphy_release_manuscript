@@ -1,27 +1,16 @@
 ---
-title: "Manuscript Title Test"
+title: "HyPhy - Title TBD"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - software
+  - evolution
+  - statistical methods
+  - natural selection
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: rdvelazquez
+    name: Ryan D Velazquez
+    initials: RDV
+    email: ryan.velazquez0001@temple.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Institute for Genomics and Evolutionary Medicine, Temple University
