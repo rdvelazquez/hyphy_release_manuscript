@@ -1,0 +1,36 @@
+{
+  "date": "April 4, 2019",
+  "authors": [
+    {
+      "github": "rdvelazquez",
+      "name": "Ryan D Velazquez",
+      "initials": "RDV",
+      "email": "ryan.velazquez0001@temple.edu",
+      "affiliations": [
+        "Institute for Genomics and Evolutionary Medicine, Temple University"
+      ],
+      "affiliation_numbers": [
+        1
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Institute for Genomics and Evolutionary Medicine, Temple University",
+      "affiliation_number": 1
+    }
+  ],
+  "ci_source": {
+    "repo_slug": "rdvelazquez/hyphy_release_manuscript",
+    "repo_owner": "rdvelazquez",
+    "repo_name": "hyphy_release_manuscript",
+    "commit": "63e1eaef57f4c4ec164cb88218b8138824f80970"
+  },
+  "manuscript_stats": {
+    "reference_counts": {
+      "doi": 7,
+      "total": 7
+    },
+    "word_count": 550
+  }
+}

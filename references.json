@@ -1,0 +1,360 @@
+[
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "DOI": "10.1093/bioinformatics/bti079",
+    "type": "article-journal",
+    "page": "676-679",
+    "source": "Crossref",
+    "title": "HyPhy: hypothesis testing using phylogenies",
+    "volume": "21",
+    "author": [
+      {
+        "given": "S. L. K.",
+        "family": "Pond"
+      },
+      {
+        "given": "S. D. W.",
+        "family": "Frost"
+      },
+      {
+        "given": "S. V.",
+        "family": "Muse"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          10,
+          27
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bbcz2p",
+    "container-title-short": "Bioinformatics",
+    "PMID": "15509596",
+    "id": "OG5Jd8Ck"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "10",
+    "DOI": "10.1093/bioinformatics/bti320",
+    "type": "article-journal",
+    "page": "2531-2533",
+    "source": "Crossref",
+    "title": "Datamonkey: rapid detection of selective pressure on individual sites of codon alignments",
+    "volume": "21",
+    "author": [
+      {
+        "given": "S. L. K.",
+        "family": "Pond"
+      },
+      {
+        "given": "S. D. W.",
+        "family": "Frost"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          2,
+          15
+        ]
+      ]
+    },
+    "URL": "https://doi.org/c2bz9d",
+    "container-title-short": "Bioinformatics",
+    "PMID": "15713735",
+    "id": "E9o1eL84"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "19",
+    "DOI": "10.1093/bioinformatics/btq429",
+    "type": "article-journal",
+    "page": "2455-2457",
+    "source": "Crossref",
+    "title": "Datamonkey 2010: a suite of phylogenetic analysis tools for evolutionary biology",
+    "volume": "26",
+    "author": [
+      {
+        "given": "W.",
+        "family": "Delport"
+      },
+      {
+        "given": "A. F. Y.",
+        "family": "Poon"
+      },
+      {
+        "given": "S. D. W.",
+        "family": "Frost"
+      },
+      {
+        "given": "S. L.",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          7,
+          29
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bz8k5p",
+    "container-title-short": "Bioinformatics",
+    "PMCID": "PMC2944195",
+    "PMID": "20671151",
+    "id": "1DlzNU0dT"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "DOI": "10.1093/molbev/msx335",
+    "type": "article-journal",
+    "page": "773-777",
+    "source": "Crossref",
+    "title": "Datamonkey 2.0: A Modern Web Application for Characterizing Selective and Other Evolutionary Processes",
+    "volume": "35",
+    "author": [
+      {
+        "given": "Steven",
+        "family": "Weaver"
+      },
+      {
+        "given": "Stephen D",
+        "family": "Shank"
+      },
+      {
+        "given": "Stephanie J",
+        "family": "Spielman"
+      },
+      {
+        "given": "Michael",
+        "family": "Li"
+      },
+      {
+        "given": "Spencer V",
+        "family": "Muse"
+      },
+      {
+        "given": "Sergei L",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdbs4n",
+    "PMCID": "PMC5850112",
+    "PMID": "29301006",
+    "id": "1DPhLuJmc"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "6",
+    "DOI": "10.1093/molbev/msy096",
+    "type": "article-journal",
+    "page": "1547-1549",
+    "source": "Crossref",
+    "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
+    "volume": "35",
+    "author": [
+      {
+        "given": "Sudhir",
+        "family": "Kumar"
+      },
+      {
+        "given": "Glen",
+        "family": "Stecher"
+      },
+      {
+        "given": "Michael",
+        "family": "Li"
+      },
+      {
+        "given": "Christina",
+        "family": "Knyaz"
+      },
+      {
+        "given": "Koichiro",
+        "family": "Tamura"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Fabia Ursula",
+        "family": "Battistuzzi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd39d8",
+    "PMCID": "PMC5967553",
+    "PMID": "29722887",
+    "id": "59wIwwiv"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "W1",
+    "DOI": "10.1093/nar/gky379",
+    "type": "article-journal",
+    "page": "W537-W544",
+    "source": "Crossref",
+    "title": "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update",
+    "volume": "46",
+    "author": [
+      {
+        "given": "Enis",
+        "family": "Afgan"
+      },
+      {
+        "given": "Dannon",
+        "family": "Baker"
+      },
+      {
+        "given": "Bérénice",
+        "family": "Batut"
+      },
+      {
+        "given": "Marius",
+        "family": "van den Beek"
+      },
+      {
+        "given": "Dave",
+        "family": "Bouvier"
+      },
+      {
+        "given": "Martin",
+        "family": "Čech"
+      },
+      {
+        "given": "John",
+        "family": "Chilton"
+      },
+      {
+        "given": "Dave",
+        "family": "Clements"
+      },
+      {
+        "given": "Nate",
+        "family": "Coraor"
+      },
+      {
+        "given": "Björn A",
+        "family": "Grüning"
+      },
+      {
+        "given": "Aysam",
+        "family": "Guerler"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Hillman-Jackson"
+      },
+      {
+        "given": "Saskia",
+        "family": "Hiltemann"
+      },
+      {
+        "given": "Vahid",
+        "family": "Jalili"
+      },
+      {
+        "given": "Helena",
+        "family": "Rasche"
+      },
+      {
+        "given": "Nicola",
+        "family": "Soranzo"
+      },
+      {
+        "given": "Jeremy",
+        "family": "Goecks"
+      },
+      {
+        "given": "James",
+        "family": "Taylor"
+      },
+      {
+        "given": "Anton",
+        "family": "Nekrutenko"
+      },
+      {
+        "given": "Daniel",
+        "family": "Blankenberg"
+      }
+    ],
+    "container-title": "Nucleic Acids Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdwxpr",
+    "PMCID": "PMC6030816",
+    "PMID": "29790989",
+    "id": "WBsVRA32"
+  },
+  {
+    "publisher": "The Open Journal",
+    "issue": "21",
+    "DOI": "10.21105/joss.00514",
+    "type": "article-journal",
+    "page": "514",
+    "source": "Crossref",
+    "title": "phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Stephanie",
+        "family": "J. Spielman"
+      }
+    ],
+    "container-title": "The Journal of Open Source Software",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          17
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfxxzf",
+    "container-title-short": "JOSS",
+    "id": "M8c1F3zk"
+  }
+]
