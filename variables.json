@@ -24,7 +24,7 @@
     "repo_slug": "rdvelazquez/hyphy_release_manuscript",
     "repo_owner": "rdvelazquez",
     "repo_name": "hyphy_release_manuscript",
-    "commit": "98a44d75ef909f9acfe7829adc9ada50334ca9bd"
+    "commit": "7877c87ad3d3e0b17cf4538c1b21d3842053a551"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -33,6 +33,6 @@
       "url": 1,
       "total": 20
     },
-    "word_count": 1189
+    "word_count": 1212
   }
 }

@@ -18,9 +18,9 @@ title: HyPhy - Title TBD
 
 <small><em>
 This manuscript
-([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/98a44d75ef909f9acfe7829adc9ada50334ca9bd/))
+([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/7877c87ad3d3e0b17cf4538c1b21d3842053a551/))
 was automatically generated
-from [rdvelazquez/hyphy_release_manuscript@98a44d7](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/98a44d75ef909f9acfe7829adc9ada50334ca9bd)
+from [rdvelazquez/hyphy_release_manuscript@7877c87](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/7877c87ad3d3e0b17cf4538c1b21d3842053a551)
 on April 4, 2019.
 </em></small>
 
@@ -56,12 +56,13 @@ Here we announce the release of the newest version of HyPhy (version 2.4.0) and 
 The users of HyPhy vary greatly in their technical proficiency, from biologists unfamiliar with the command line to bioinformaticians who want to incorporate HyPhy into their own software. 
 To meet the needs of this divers user set, HyPhy has been packaged and distributed for use in multiple different forms. 
 These include:
-+ Standard command line tool (Download: <https://github.com/veg/hyphy>; Tutorial: {to be written})
-+ Interactive command line prompt (Download: <https://github.com/veg/hyphy>; Tutorial: <http://hyphy.org/tutorials/current-release-tutorial/>)
-+ Datamonkey [@E9o1eL84; @1DlzNU0dT; @1DPhLuJmc] online web-server (datamonkey.hyphy.org)
-+ Desktop GUI application (Download: <https://github.com/veg/hyphy-gui>; Tutorial: <http://hyphy.org/tutorials/current-release-tutorial_gui/>)
-+ Galaxy [@WBsVRA32] Tools (Installable from the galaxy tool-shed; available pre-installed at <https://galaxy.hyphy.org)>
-+ Integration with the Python Programming Language via PhyPhy[@M8c1F3zk] (Download: <https://github.com/sjspielman/phyphy>; Tutorial: <http://sjspielman.org/phyphy/>) 
+  
++ Standard command line tool (Download: <https://github.com/veg/hyphy>; Tutorial: {to be written})  
++ Interactive command line prompt (Download: <https://github.com/veg/hyphy>; Tutorial: <http://hyphy.org/tutorials/current-release-tutorial/>)  
++ Datamonkey [@E9o1eL84; @1DlzNU0dT; @1DPhLuJmc] online web-server (datamonkey.hyphy.org)  
++ Desktop GUI application (Download: <https://github.com/veg/hyphy-gui>; Tutorial: <http://hyphy.org/tutorials/current-release-tutorial_gui/>)  
++ Galaxy [@WBsVRA32] Tools (Installable from the galaxy tool-shed; available pre-installed at <https://galaxy.hyphy.org>)  
++ Integration with the Python Programming Language via PhyPhy[@M8c1F3zk] (Download: <https://github.com/sjspielman/phyphy>; Tutorial: <http://sjspielman.org/phyphy/>)  
 + MEGA [@59wIwwiv] Integration (Download: <http://https://www.megasoftware.net/>)
 
 ## Optimized for Larger Datasets
@@ -76,26 +77,28 @@ This decision manifested in the easy to use command line prompt which guided use
 Also, the HBL itself was designed to allow sophisticated models to be specified and fit with concise scripts, facilitated by extensive use of a global namespace. 
 As the common use of HyPhy has shifted over the last decade from one-off analyses toward larger studies and use within pipelines, the demands on HyPhy have also shifted. 
 HyPhy has therefore been redesigned to address the requirements of these changing use cases. 
-Specifically:
-+ HyPhy is now installable with bioconda [@sYguBb3Q] (cite conda) which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple `conda install hyphy`.
-+ Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. This change, along with the ability to use relative paths to files has made using HyPhy in pipelines and batch analyses seamless.
-+ The extension of the HBL also included implementation of namespaces. Before, all variables were automatically and irrevocably declared at a global scope, which meant that declaring or modifying a variable i in one HBL script could affect the result in another script being run concurrently. Namespaces also facilitated the refactoring and standardization of the template batch files.
+Specifically:  
+  
++ HyPhy is now installable with bioconda [@sYguBb3Q] (cite conda) which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple `conda install hyphy`.  
++ Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. This change, along with the ability to use relative paths to files has made using HyPhy in pipelines and batch analyses seamless.  
++ The extension of the HBL also included implementation of namespaces. Before, all variables were automatically and irrevocably declared at a global scope, which meant that declaring or modifying a variable i in one HBL script could affect the result in another script being run concurrently. Namespaces also facilitated the refactoring and standardization of the template batch files.  
 + Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing [@MOcKAui8] which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified
 
 ## Extended to Provide Common Methods out of the Box
 
 Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. 
 The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. 
-These analyses can be executed in the various places HyPhy is available and include (in alphabetical order):
-+ aBSREL [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches
-+ BGM [@V35tv36N] (Bayesian Graphical Models) - Testing for co-evolving sites 
-+ BUSTED [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages
-+ FADE (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection
-+ FEL [@1AP8NmEKg] (Fixed Effects Likelihood)
-+ FUBAR (Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis
-+ GARD [@PTZuTBNs] (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination
-+ MEME [@hI0YJStl] (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection
-+ RELAX [@OpDB3a8r] - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches
+These analyses can be executed in the various places HyPhy is available and include (in alphabetical order):  
+  
++ aBSREL [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches  
++ BGM [@V35tv36N] (Bayesian Graphical Models) - Testing for co-evolving sites  
++ BUSTED [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages  
++ FADE (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection  
++ FEL [@1AP8NmEKg] (Fixed Effects Likelihood) - Infeing nonsynoymous and synonymous substitution rates on a per-site basis for smaller datastes using maximum likelihood  
++ FUBAR (Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods  
++ GARD [@PTZuTBNs] (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination  
++ MEME [@hI0YJStl] (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection  
++ RELAX [@OpDB3a8r] - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches  
 + SLAC [@1AP8NmEKg] (SingleLikelihood Ancestor Counting) - Infer non synonymous and synonymous substitution rates on a per-site basis 
 
 ## References {.page_break_before}
