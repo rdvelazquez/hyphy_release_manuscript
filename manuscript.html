@@ -22,17 +22,23 @@
 <header id="title-block-header">
 <h1 class="title">HyPhy - Title TBD</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/63e1eaef57f4c4ec164cb88218b8138824f80970/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/63e1eaef57f4c4ec164cb88218b8138824f80970">rdvelazquez/hyphy_release_manuscript@63e1eae</a> on April 4, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/98a44d75ef909f9acfe7829adc9ada50334ca9bd/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/98a44d75ef909f9acfe7829adc9ada50334ca9bd">rdvelazquez/hyphy_release_manuscript@98a44d7</a> on April 4, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Ryan D Velazquez</strong><br> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/rdvelazquez">rdvelazquez</a><br> <small> Institute for Genomics and Evolutionary Medicine, Temple University </small></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
-<p>Here we announce the latest release of the HyPhy comparative sequence analysis software package. HyPhy is widely used, actively supported, open source and freely available on a multitude of platforms. The codebase is available at http://github.com/veg/hyphy. Documentation, tutorials and downloads are available at http://hyphy.org.</p>
+<p>Here we announce the latest release of the HyPhy comparative sequence analysis software package. HyPhy is widely used, actively supported, open source and freely available on a multitude of platforms. The codebase is available at <a href="https://github.com/veg/hyphy" class="uri">https://github.com/veg/hyphy</a>. Documentation, tutorials and downloads are available at <a href="https://hyphy.org" class="uri">https://hyphy.org</a>.</p>
 <h2 id="introduction">Introduction</h2>
 <p>HyPhy (Hypothesis testing using Phyloginies) is an open source software package for comparative sequence analysis using stochastic evolutionary models. Since it’s initial release in 2005 <span class="citation" data-cites="OG5Jd8Ck">[<a href="#ref-OG5Jd8Ck">1</a>]</span> HyPhy has become an integral tool for the bioinformatics community with over 10,000 registered users, over 2,000 peer-reviewed citations and approximately 1,000 HyPhy jobs processed each week on the datamonkey web server <span class="citation" data-cites="E9o1eL84 1DlzNU0dT 1DPhLuJmc">[<a href="#ref-E9o1eL84">2</a>,<a href="#ref-1DlzNU0dT">3</a>,<a href="#ref-1DPhLuJmc">4</a>]</span>. Extensions and improvements to the HyPhy package have been ongoing since its inception, with active feedback between users and developers producing new features tailored to the specific needs of the research community. Here we announce the release of the newest version of HyPhy (version 2.4.0) and document how the software has been (1) packaged for easy use in a variety of settings (2) optimized for larger datasets (3) redesigned to follow modern bioinformatics best practices and (4) extended to include common methods out of the box.</p>
 <h2 id="packaged-for-easy-use-in-a-variety-of-settings">Packaged for Easy Use in a Variety of Settings</h2>
-<p>The users of HyPhy vary greatly in their technological proficiency, spanning the spectrum from biologists unfamiliar with the command line to bioinformaticians who want to incorporate HyPhy into their own software. To meet the needs of this divers user set, HyPhy has been packaged and distributed for use in multiple different forms. These include: - Standard command line tool (Download: github.com/veg/hyphy; Tutorial: {to be written}) - Interactive command line prompt (Download: github.com/veg/hyphy; Tutorial: hyphy.org/tutorials/current-release-tutorial/) - Online web-service (datamonkey.hyphy.org) - Desktop GUI application (Download: github.com/veg/hyphy-gui; Tutorial: hyphy.org/tutorials/current-release-tutorial_gui/) - Galaxy <span class="citation" data-cites="WBsVRA32">[<a href="#ref-WBsVRA32">5</a>]</span> Tools (Installable from the galaxy tool-shed; available pre-installed at galaxy.hyphy.org) - Integration with the Python Programming Language (Download: github.com/sjspielman/phyphy; Tutorial: sjspielman.org/phyphy/) <span class="citation" data-cites="M8c1F3zk">[<a href="#ref-M8c1F3zk">6</a>]</span> - MEGA <span class="citation" data-cites="59wIwwiv">[<a href="#ref-59wIwwiv">7</a>]</span> Integration</p>
+<p>The users of HyPhy vary greatly in their technical proficiency, from biologists unfamiliar with the command line to bioinformaticians who want to incorporate HyPhy into their own software. To meet the needs of this divers user set, HyPhy has been packaged and distributed for use in multiple different forms. These include: + Standard command line tool (Download: <a href="https://github.com/veg/hyphy" class="uri">https://github.com/veg/hyphy</a>; Tutorial: {to be written}) + Interactive command line prompt (Download: <a href="https://github.com/veg/hyphy" class="uri">https://github.com/veg/hyphy</a>; Tutorial: <a href="http://hyphy.org/tutorials/current-release-tutorial/" class="uri">http://hyphy.org/tutorials/current-release-tutorial/</a>) + Datamonkey <span class="citation" data-cites="E9o1eL84 1DlzNU0dT 1DPhLuJmc">[<a href="#ref-E9o1eL84">2</a>,<a href="#ref-1DlzNU0dT">3</a>,<a href="#ref-1DPhLuJmc">4</a>]</span> online web-server (datamonkey.hyphy.org) + Desktop GUI application (Download: <a href="https://github.com/veg/hyphy-gui" class="uri">https://github.com/veg/hyphy-gui</a>; Tutorial: <a href="http://hyphy.org/tutorials/current-release-tutorial_gui/" class="uri">http://hyphy.org/tutorials/current-release-tutorial_gui/</a>) + Galaxy <span class="citation" data-cites="WBsVRA32">[<a href="#ref-WBsVRA32">5</a>]</span> Tools (Installable from the galaxy tool-shed; available pre-installed at <a href="https://galaxy.hyphy.org)" class="uri">https://galaxy.hyphy.org)</a> + Integration with the Python Programming Language via PhyPhy<span class="citation" data-cites="M8c1F3zk">[<a href="#ref-M8c1F3zk">6</a>]</span> (Download: <a href="https://github.com/sjspielman/phyphy" class="uri">https://github.com/sjspielman/phyphy</a>; Tutorial: <a href="http://sjspielman.org/phyphy/" class="uri">http://sjspielman.org/phyphy/</a>) + MEGA <span class="citation" data-cites="59wIwwiv">[<a href="#ref-59wIwwiv">7</a>]</span> Integration (Download: <a href="http://https://www.megasoftware.net/" class="uri">http://https://www.megasoftware.net/</a>)</p>
+<h2 id="optimized-for-larger-datasets">Optimized for Larger Datasets</h2>
+<p>HyPhy has been optimized to analyze datasets with thousands of sequences and tens of thousands of sites. This optimization was accomplished by (1) integrating recent algorithmic advances from the fields of machine learning and natural language processing <span class="citation" data-cites="TkofEaUO">[<a href="#ref-TkofEaUO">8</a>]</span> into the core c++ implementation (2) incorporating fast Bayseian methods <span class="citation" data-cites="BLiAMJec">[<a href="#ref-BLiAMJec">9</a>]</span> (3) developing parallel implementations for commute intensive porcesses and (4) providing high performance computing infrastructure<span class="citation" data-cites="E9o1eL84 1DlzNU0dT 1DPhLuJmc">[<a href="#ref-E9o1eL84">2</a>,<a href="#ref-1DlzNU0dT">3</a>,<a href="#ref-1DPhLuJmc">4</a>]</span> free of charge to the global community, helping to democratize access to scientific compute resources <span class="citation" data-cites="16bcy34vy">[<a href="#ref-16bcy34vy">10</a>]</span>.</p>
+<h2 id="redesigned-to-follow-modern-bioinformatics-best-practices">Redesigned to Follow Modern Bioinformatics Best Practices</h2>
+<p>The design of the original HyPhy implementation emphasized convenient writing and execution of single HyPhy Batch Language (HBL) scripts. This decision manifested in the easy to use command line prompt which guided users interactively through selecting the desired analysis and choosing the specific analysis parameters. Also, the HBL itself was designed to allow sophisticated models to be specified and fit with concise scripts, facilitated by extensive use of a global namespace. As the common use of HyPhy has shifted over the last decade from one-off analyses toward larger studies and use within pipelines, the demands on HyPhy have also shifted. HyPhy has therefore been redesigned to address the requirements of these changing use cases. Specifically: + HyPhy is now installable with bioconda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q">11</a>]</span> (cite conda) which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple <code>conda install hyphy</code>. + Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. This change, along with the ability to use relative paths to files has made using HyPhy in pipelines and batch analyses seamless. + The extension of the HBL also included implementation of namespaces. Before, all variables were automatically and irrevocably declared at a global scope, which meant that declaring or modifying a variable i in one HBL script could affect the result in another script being run concurrently. Namespaces also facilitated the refactoring and standardization of the template batch files. + Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing <span class="citation" data-cites="MOcKAui8">[<a href="#ref-MOcKAui8">12</a>]</span> which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified</p>
+<h2 id="extended-to-provide-common-methods-out-of-the-box">Extended to Provide Common Methods out of the Box</h2>
+<p>Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. These analyses can be executed in the various places HyPhy is available and include (in alphabetical order): + aBSREL <span class="citation" data-cites="w4iHLQCq hX6CSnea">[<a href="#ref-w4iHLQCq">13</a>,<a href="#ref-hX6CSnea">14</a>]</span> (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches + BGM <span class="citation" data-cites="V35tv36N">[<a href="#ref-V35tv36N">15</a>]</span> (Bayesian Graphical Models) - Testing for co-evolving sites + BUSTED <span class="citation" data-cites="13wl6FKEJ">[<a href="#ref-13wl6FKEJ">16</a>]</span> (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages + FADE (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection + FEL <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">17</a>]</span> (Fixed Effects Likelihood) + FUBAR (Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis + GARD <span class="citation" data-cites="PTZuTBNs">[<a href="#ref-PTZuTBNs">18</a>]</span> (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination + MEME <span class="citation" data-cites="hI0YJStl">[<a href="#ref-hI0YJStl">19</a>]</span> (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection + RELAX <span class="citation" data-cites="OpDB3a8r">[<a href="#ref-OpDB3a8r">20</a>]</span> - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches + SLAC <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">17</a>]</span> (SingleLikelihood Ancestor Counting) - Infer non synonymous and synonymous substitution rates on a per-site basis</p>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs">
@@ -77,6 +83,80 @@ DOI: <a href="https://doi.org/10.21105/joss.00514">10.21105/joss.00514</a></p>
 Sudhir Kumar, Glen Stecher, Michael Li, Christina Knyaz, Koichiro Tamura<br />
 <em>Molecular Biology and Evolution</em> (2018-05-02) <a href="https://doi.org/gd39d8">https://doi.org/gd39d8</a><br />
 DOI: <a href="https://doi.org/10.1093/molbev/msy096">10.1093/molbev/msy096</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29722887">29722887</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5967553">PMC5967553</a></p>
+</div>
+<div id="ref-TkofEaUO">
+<p>8. <strong>Latent Dirichlet Allocation</strong><br />
+David Blei<br />
+<em>Journal of Machine Learning Research</em> (2003) <a href="http://www.jmlr.org/papers/v3/blei03a.html">http://www.jmlr.org/papers/v3/blei03a.html</a></p>
+</div>
+<div id="ref-BLiAMJec">
+<p>9. <strong>FUBAR: A Fast, Unconstrained Bayesian AppRoximation for Inferring Selection</strong><br />
+B. Murrell, S. Moola, A. Mabona, T. Weighill, D. Sheward, S. L. Kosakovsky Pond, K. Scheffler<br />
+<em>Molecular Biology and Evolution</em> (2013-02-18) <a href="https://doi.org/gfxxzx">https://doi.org/gfxxzx</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/mst030">10.1093/molbev/mst030</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23420840">23420840</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670733">PMC3670733</a></p>
+</div>
+<div id="ref-16bcy34vy">
+<p>10. <strong>Cloud computing: A democratizing force?</strong><br />
+Nabil Sultan<br />
+<em>International Journal of Information Management</em> (2013-10) <a href="https://doi.org/gfxxzv">https://doi.org/gfxxzv</a><br />
+DOI: <a href="https://doi.org/10.1016/j.ijinfomgt.2013.05.010">10.1016/j.ijinfomgt.2013.05.010</a></p>
+</div>
+<div id="ref-sYguBb3Q">
+<p>11. <strong>Bioconda: sustainable and comprehensive software distribution for the life sciences</strong><br />
+Björn GrüningRyan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, Johannes Köster<br />
+<em>Nature Methods</em> (2018-07) <a href="https://doi.org/gd2xzp">https://doi.org/gd2xzp</a><br />
+DOI: <a href="https://doi.org/10.1038/s41592-018-0046-7">10.1038/s41592-018-0046-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29967506">29967506</a></p>
+</div>
+<div id="ref-MOcKAui8">
+<p>12. <strong>testiphy / testiphy</strong><em>GitLab</em> <a href="https://gitlab.com/testiphy/testiphy">https://gitlab.com/testiphy/testiphy</a></p>
+</div>
+<div id="ref-w4iHLQCq">
+<p>13. <strong>Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection</strong><br />
+Martin D. Smith, Joel O. Wertheim, Steven Weaver, Ben Murrell, Konrad Scheffler, Sergei L. Kosakovsky Pond<br />
+<em>Molecular Biology and Evolution</em> (2015-02-19) <a href="https://doi.org/f7dh98">https://doi.org/f7dh98</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msv022">10.1093/molbev/msv022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25697341">25697341</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4408413">PMC4408413</a></p>
+</div>
+<div id="ref-hX6CSnea">
+<p>14. <strong>A Random Effects Branch-Site Model for Detecting Episodic Diversifying Selection</strong><br />
+Sergei L. Kosakovsky Pond, Ben Murrell, Mathieu Fourment, Simon D.W. Frost, Wayne Delport, Konrad Scheffler<br />
+<em>Molecular Biology and Evolution</em> (2011-06-13) <a href="https://doi.org/frpb4w">https://doi.org/frpb4w</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msr125">10.1093/molbev/msr125</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21670087">21670087</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3247808">PMC3247808</a></p>
+</div>
+<div id="ref-V35tv36N">
+<p>15. <strong>Spidermonkey: rapid detection of co-evolving sites using Bayesian graphical models</strong><br />
+A. F. Y. Poon, F. I. Lewis, S. D. W. Frost, S. L. Kosakovsky Pond<br />
+<em>Bioinformatics</em> (2008-06-18) <a href="https://doi.org/d9mgkz">https://doi.org/d9mgkz</a><br />
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btn313">10.1093/bioinformatics/btn313</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18562270">18562270</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2732215">PMC2732215</a></p>
+</div>
+<div id="ref-13wl6FKEJ">
+<p>16. <strong>Gene-Wide Identification of Episodic Selection</strong><br />
+Ben Murrell, Steven Weaver, Martin D. Smith, Joel O. Wertheim, Sasha Murrell, Anthony Aylward, Kemal Eren, Tristan Pollner, Darren P. Martin, Davey M. Smith, … Sergei L. Kosakovsky Pond<br />
+<em>Molecular Biology and Evolution</em> (2015-02-19) <a href="https://doi.org/f7djbj">https://doi.org/f7djbj</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msv035">10.1093/molbev/msv035</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25701167">25701167</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4408417">PMC4408417</a></p>
+</div>
+<div id="ref-1AP8NmEKg">
+<p>17. <strong>Not So Different After All: A Comparison of Methods for Detecting Amino Acid Sites Under Selection</strong><br />
+Sergei L. Kosakovsky Pond, Simon D. W. Frost<br />
+<em>Molecular Biology and Evolution</em> (2005-02-09) <a href="https://doi.org/bx9bg2">https://doi.org/bx9bg2</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msi105">10.1093/molbev/msi105</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15703242">15703242</a></p>
+</div>
+<div id="ref-PTZuTBNs">
+<p>18. <strong>Automated Phylogenetic Detection of Recombination Using a Genetic Algorithm</strong><br />
+Sergei L. Kosakovsky Pond, David Posada, Michael B. Gravenor, Christopher H. Woelk, Simon D. W. Frost<br />
+<em>Molecular Biology and Evolution</em> (2006-07-03) <a href="https://doi.org/fvnfwn">https://doi.org/fvnfwn</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msl051">10.1093/molbev/msl051</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16818476">16818476</a></p>
+</div>
+<div id="ref-hI0YJStl">
+<p>19. <strong>Detecting Individual Sites Subject to Episodic Diversifying Selection</strong><br />
+Ben Murrell, Joel O. Wertheim, Sasha Moola, Thomas Weighill, Konrad Scheffler, Sergei L. Kosakovsky Pond<br />
+<em>PLoS Genetics</em> (2012-07-12) <a href="https://doi.org/f34pgn">https://doi.org/f34pgn</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pgen.1002764">10.1371/journal.pgen.1002764</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22807683">22807683</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3395634">PMC3395634</a></p>
+</div>
+<div id="ref-OpDB3a8r">
+<p>20. <strong>RELAX: Detecting Relaxed Selection in a Phylogenetic Framework</strong><br />
+Joel O. Wertheim, Ben Murrell, Martin D. Smith, Sergei L. Kosakovsky Pond, Konrad Scheffler<br />
+<em>Molecular Biology and Evolution</em> (2014-12-23) <a href="https://doi.org/f64sp5">https://doi.org/f64sp5</a><br />
+DOI: <a href="https://doi.org/10.1093/molbev/msu400">10.1093/molbev/msu400</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25540451">25540451</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161">PMC4327161</a></p>
 </div>
 </div>
 <!-- default theme -->

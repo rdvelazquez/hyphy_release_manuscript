@@ -1,5 +1,93 @@
 [
   {
+    "publisher": "Elsevier BV",
+    "issue": "5",
+    "DOI": "10.1016/j.ijinfomgt.2013.05.010",
+    "type": "article-journal",
+    "page": "810-815",
+    "source": "Crossref",
+    "title": "Cloud computing: A democratizing force?",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Nabil",
+        "family": "Sultan"
+      }
+    ],
+    "container-title": "International Journal of Information Management",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfxxzv",
+    "container-title-short": "International Journal of Information Management",
+    "id": "16bcy34vy"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "7",
+    "DOI": "10.1038/s41592-018-0046-7",
+    "type": "article-journal",
+    "page": "475-476",
+    "source": "Crossref",
+    "title": "Bioconda: sustainable and comprehensive software distribution for the life sciences",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Björn",
+        "family": "Grüning"
+      },
+      {},
+      {
+        "given": "Ryan",
+        "family": "Dale"
+      },
+      {
+        "given": "Andreas",
+        "family": "Sjödin"
+      },
+      {
+        "given": "Brad A.",
+        "family": "Chapman"
+      },
+      {
+        "given": "Jillian",
+        "family": "Rowe"
+      },
+      {
+        "given": "Christopher H.",
+        "family": "Tomkins-Tinch"
+      },
+      {
+        "given": "Renan",
+        "family": "Valieris"
+      },
+      {
+        "given": "Johannes",
+        "family": "Köster"
+      }
+    ],
+    "container-title": "Nature Methods",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd2xzp",
+    "container-title-short": "Nat Methods",
+    "PMID": "29967506",
+    "id": "sYguBb3Q"
+  },
+  {
     "publisher": "Oxford University Press (OUP)",
     "issue": "5",
     "DOI": "10.1093/bioinformatics/bti079",
@@ -75,6 +163,50 @@
   },
   {
     "publisher": "Oxford University Press (OUP)",
+    "issue": "17",
+    "DOI": "10.1093/bioinformatics/btn313",
+    "type": "article-journal",
+    "page": "1949-1950",
+    "source": "Crossref",
+    "title": "Spidermonkey: rapid detection of co-evolving sites using Bayesian graphical models",
+    "volume": "24",
+    "author": [
+      {
+        "given": "A. F. Y.",
+        "family": "Poon"
+      },
+      {
+        "given": "F. I.",
+        "family": "Lewis"
+      },
+      {
+        "given": "S. D. W.",
+        "family": "Frost"
+      },
+      {
+        "given": "S. L.",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          18
+        ]
+      ]
+    },
+    "URL": "https://doi.org/d9mgkz",
+    "container-title-short": "Bioinformatics",
+    "PMCID": "PMC2732215",
+    "PMID": "18562270",
+    "id": "V35tv36N"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
     "issue": "19",
     "DOI": "10.1093/bioinformatics/btq429",
     "type": "article-journal",
@@ -116,6 +248,366 @@
     "PMCID": "PMC2944195",
     "PMID": "20671151",
     "id": "1DlzNU0dT"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "DOI": "10.1093/molbev/msi105",
+    "type": "article-journal",
+    "page": "1208-1222",
+    "source": "Crossref",
+    "title": "Not So Different After All: A Comparison of Methods for Detecting Amino Acid Sites Under Selection",
+    "volume": "22",
+    "author": [
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      },
+      {
+        "given": "Simon D. W.",
+        "family": "Frost"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          2,
+          9
+        ]
+      ]
+    },
+    "URL": "https://doi.org/bx9bg2",
+    "PMID": "15703242",
+    "id": "1AP8NmEKg"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "10",
+    "DOI": "10.1093/molbev/msl051",
+    "type": "article-journal",
+    "page": "1891-1901",
+    "source": "Crossref",
+    "title": "Automated Phylogenetic Detection of Recombination Using a Genetic Algorithm",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      },
+      {
+        "given": "David",
+        "family": "Posada"
+      },
+      {
+        "given": "Michael B.",
+        "family": "Gravenor"
+      },
+      {
+        "given": "Christopher H.",
+        "family": "Woelk"
+      },
+      {
+        "given": "Simon D. W.",
+        "family": "Frost"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          7,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/fvnfwn",
+    "PMID": "16818476",
+    "id": "PTZuTBNs"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "11",
+    "DOI": "10.1093/molbev/msr125",
+    "type": "article-journal",
+    "page": "3033-3043",
+    "source": "Crossref",
+    "title": "A Random Effects Branch-Site Model for Detecting Episodic Diversifying Selection",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      },
+      {
+        "given": "Ben",
+        "family": "Murrell"
+      },
+      {
+        "given": "Mathieu",
+        "family": "Fourment"
+      },
+      {
+        "given": "Simon D.W.",
+        "family": "Frost"
+      },
+      {
+        "given": "Wayne",
+        "family": "Delport"
+      },
+      {
+        "given": "Konrad",
+        "family": "Scheffler"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          6,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/frpb4w",
+    "PMCID": "PMC3247808",
+    "PMID": "21670087",
+    "id": "hX6CSnea"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "DOI": "10.1093/molbev/mst030",
+    "type": "article-journal",
+    "page": "1196-1205",
+    "source": "Crossref",
+    "title": "FUBAR: A Fast, Unconstrained Bayesian AppRoximation for Inferring Selection",
+    "volume": "30",
+    "author": [
+      {
+        "given": "B.",
+        "family": "Murrell"
+      },
+      {
+        "given": "S.",
+        "family": "Moola"
+      },
+      {
+        "given": "A.",
+        "family": "Mabona"
+      },
+      {
+        "given": "T.",
+        "family": "Weighill"
+      },
+      {
+        "given": "D.",
+        "family": "Sheward"
+      },
+      {
+        "given": "S. L.",
+        "family": "Kosakovsky Pond"
+      },
+      {
+        "given": "K.",
+        "family": "Scheffler"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          2,
+          18
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfxxzx",
+    "container-title-short": "Molecular Biology and Evolution",
+    "PMCID": "PMC3670733",
+    "PMID": "23420840",
+    "id": "BLiAMJec"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "DOI": "10.1093/molbev/msu400",
+    "type": "article-journal",
+    "page": "820-832",
+    "source": "Crossref",
+    "title": "RELAX: Detecting Relaxed Selection in a Phylogenetic Framework",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Joel O.",
+        "family": "Wertheim"
+      },
+      {
+        "given": "Ben",
+        "family": "Murrell"
+      },
+      {
+        "given": "Martin D.",
+        "family": "Smith"
+      },
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      },
+      {
+        "given": "Konrad",
+        "family": "Scheffler"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          23
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f64sp5",
+    "PMCID": "PMC4327161",
+    "PMID": "25540451",
+    "id": "OpDB3a8r"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "DOI": "10.1093/molbev/msv022",
+    "type": "article-journal",
+    "page": "1342-1353",
+    "source": "Crossref",
+    "title": "Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Martin D.",
+        "family": "Smith"
+      },
+      {
+        "given": "Joel O.",
+        "family": "Wertheim"
+      },
+      {
+        "given": "Steven",
+        "family": "Weaver"
+      },
+      {
+        "given": "Ben",
+        "family": "Murrell"
+      },
+      {
+        "given": "Konrad",
+        "family": "Scheffler"
+      },
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f7dh98",
+    "PMCID": "PMC4408413",
+    "PMID": "25697341",
+    "id": "w4iHLQCq"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "5",
+    "DOI": "10.1093/molbev/msv035",
+    "type": "article-journal",
+    "page": "1365-1371",
+    "source": "Crossref",
+    "title": "Gene-Wide Identification of Episodic Selection",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Ben",
+        "family": "Murrell"
+      },
+      {
+        "given": "Steven",
+        "family": "Weaver"
+      },
+      {
+        "given": "Martin D.",
+        "family": "Smith"
+      },
+      {
+        "given": "Joel O.",
+        "family": "Wertheim"
+      },
+      {
+        "given": "Sasha",
+        "family": "Murrell"
+      },
+      {
+        "given": "Anthony",
+        "family": "Aylward"
+      },
+      {
+        "given": "Kemal",
+        "family": "Eren"
+      },
+      {
+        "given": "Tristan",
+        "family": "Pollner"
+      },
+      {
+        "given": "Darren P.",
+        "family": "Martin"
+      },
+      {
+        "given": "Davey M.",
+        "family": "Smith"
+      },
+      {
+        "given": "Konrad",
+        "family": "Scheffler"
+      },
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "Molecular Biology and Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f7djbj",
+    "PMCID": "PMC4408417",
+    "PMID": "25701167",
+    "id": "13wl6FKEJ"
   },
   {
     "publisher": "Oxford University Press (OUP)",
@@ -329,6 +821,64 @@
     "id": "WBsVRA32"
   },
   {
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "7",
+    "DOI": "10.1371/journal.pgen.1002764",
+    "type": "article-journal",
+    "page": "e1002764",
+    "source": "Crossref",
+    "title": "Detecting Individual Sites Subject to Episodic Diversifying Selection",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Ben",
+        "family": "Murrell"
+      },
+      {
+        "given": "Joel O.",
+        "family": "Wertheim"
+      },
+      {
+        "given": "Sasha",
+        "family": "Moola"
+      },
+      {
+        "given": "Thomas",
+        "family": "Weighill"
+      },
+      {
+        "given": "Konrad",
+        "family": "Scheffler"
+      },
+      {
+        "given": "Sergei L.",
+        "family": "Kosakovsky Pond"
+      }
+    ],
+    "container-title": "PLoS Genetics",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Harmit S.",
+        "family": "Malik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f34pgn",
+    "container-title-short": "PLoS Genet",
+    "PMCID": "PMC3395634",
+    "PMID": "22807683",
+    "id": "hI0YJStl"
+  },
+  {
     "publisher": "The Open Journal",
     "issue": "21",
     "DOI": "10.21105/joss.00514",
@@ -356,5 +906,43 @@
     "URL": "https://doi.org/gfxxzf",
     "container-title-short": "JOSS",
     "id": "M8c1F3zk"
+  },
+  {
+    "type": "article",
+    "URL": "http://www.jmlr.org/papers/v3/blei03a.html",
+    "title": "Latent Dirichlet Allocation",
+    "container-title": "Journal of Machine Learning Research",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "David",
+        "family": "Blei"
+      }
+    ],
+    "id": "TkofEaUO"
+  },
+  {
+    "type": "webpage",
+    "title": "testiphy / testiphy",
+    "container-title": "GitLab",
+    "abstract": "Cross-project likelihood test suite",
+    "URL": "https://gitlab.com/testiphy/testiphy",
+    "language": "en",
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          4,
+          4
+        ]
+      ]
+    },
+    "id": "MOcKAui8"
   }
 ]
