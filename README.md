@@ -10,6 +10,13 @@
 
 This is an initial, __rough__, working draft of the HyPhy release note for testing out manubot.
 
+### Converting to LaTeX
+requires pan-doc `pip install pandoc`  
+`sh build/build.sh` to build the html, md and pdf documents and the references.json in the output dir  
+`cd output`  
+`pandoc manuscript.md -f markdown -t latex -s -o manuscript.tex` creates a LaTeX version of the manuscript  
+{need to document how to convert the references to .bib format}
+
 ## Manubot
 
 <!-- usage note: do not edit this section -->
