@@ -22,7 +22,7 @@
 <header id="title-block-header">
 <h1 class="title">HyPhy - Title TBD</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/7877c87ad3d3e0b17cf4538c1b21d3842053a551/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/7877c87ad3d3e0b17cf4538c1b21d3842053a551">rdvelazquez/hyphy_release_manuscript@7877c87</a> on April 4, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/6048bd7ff030132a7f085e2a765a225658c90d7d/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/6048bd7ff030132a7f085e2a765a225658c90d7d">rdvelazquez/hyphy_release_manuscript@6048bd7</a> on April 4, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Ryan D Velazquez</strong><br> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/rdvelazquez">rdvelazquez</a><br> <small> Institute for Genomics and Evolutionary Medicine, Temple University </small></li>
@@ -53,13 +53,13 @@
 <h2 id="redesigned-to-follow-modern-bioinformatics-best-practices">Redesigned to Follow Modern Bioinformatics Best Practices</h2>
 <p>The design of the original HyPhy implementation emphasized convenient writing and execution of single HyPhy Batch Language (HBL) scripts. This decision manifested in the easy to use command line prompt which guided users interactively through selecting the desired analysis and choosing the specific analysis parameters. Also, the HBL itself was designed to allow sophisticated models to be specified and fit with concise scripts, facilitated by extensive use of a global namespace. As the common use of HyPhy has shifted over the last decade from one-off analyses toward larger studies and use within pipelines, the demands on HyPhy have also shifted. HyPhy has therefore been redesigned to address the requirements of these changing use cases. Specifically:</p>
 <ul>
-<li>HyPhy is now installable with bioconda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q">11</a>]</span> (cite conda) which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple <code>conda install hyphy</code>.<br />
+<li>HyPhy is now installable with bioconda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q">11</a>]</span> which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple <code>conda install hyphy</code>.<br />
 </li>
 <li>Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. This change, along with the ability to use relative paths to files has made using HyPhy in pipelines and batch analyses seamless.<br />
 </li>
-<li>The extension of the HBL also included implementation of namespaces. Before, all variables were automatically and irrevocably declared at a global scope, which meant that declaring or modifying a variable i in one HBL script could affect the result in another script being run concurrently. Namespaces also facilitated the refactoring and standardization of the template batch files.<br />
+<li>The HBL has been extended to include namespaces. Before, all variables were automatically declared at a global scope. Namespaces helped facilitated the refactoring and standardization of the template batch files for easier comprehension and reuse.<br />
 </li>
-<li>Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing <span class="citation" data-cites="MOcKAui8">[<a href="#ref-MOcKAui8">12</a>]</span> which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified</li>
+<li>Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing <span class="citation" data-cites="MOcKAui8">[<a href="#ref-MOcKAui8">12</a>]</span> which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified.</li>
 </ul>
 <h2 id="extended-to-provide-common-methods-out-of-the-box">Extended to Provide Common Methods out of the Box</h2>
 <p>Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. These analyses can be executed in the various places HyPhy is available and include (in alphabetical order):</p>

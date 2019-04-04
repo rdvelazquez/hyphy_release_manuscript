@@ -18,9 +18,9 @@ title: HyPhy - Title TBD
 
 <small><em>
 This manuscript
-([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/7877c87ad3d3e0b17cf4538c1b21d3842053a551/))
+([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/6048bd7ff030132a7f085e2a765a225658c90d7d/))
 was automatically generated
-from [rdvelazquez/hyphy_release_manuscript@7877c87](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/7877c87ad3d3e0b17cf4538c1b21d3842053a551)
+from [rdvelazquez/hyphy_release_manuscript@6048bd7](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/6048bd7ff030132a7f085e2a765a225658c90d7d)
 on April 4, 2019.
 </em></small>
 
@@ -79,10 +79,10 @@ As the common use of HyPhy has shifted over the last decade from one-off analyse
 HyPhy has therefore been redesigned to address the requirements of these changing use cases. 
 Specifically:  
   
-+ HyPhy is now installable with bioconda [@sYguBb3Q] (cite conda) which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple `conda install hyphy`.  
++ HyPhy is now installable with bioconda [@sYguBb3Q] which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simple `conda install hyphy`.  
 + Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. This change, along with the ability to use relative paths to files has made using HyPhy in pipelines and batch analyses seamless.  
-+ The extension of the HBL also included implementation of namespaces. Before, all variables were automatically and irrevocably declared at a global scope, which meant that declaring or modifying a variable i in one HBL script could affect the result in another script being run concurrently. Namespaces also facilitated the refactoring and standardization of the template batch files.  
-+ Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing [@MOcKAui8] which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified
++ The HBL has been extended to include namespaces. Before, all variables were automatically declared at a global scope. Namespaces helped facilitated the refactoring and standardization of the template batch files for easier comprehension and reuse.  
++ Automated testing has been implemented including: unit tests on over 90% of HBL functions, method tests on all the core analyses, likelihood testing [@MOcKAui8] which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified.
 
 ## Extended to Provide Common Methods out of the Box
 
