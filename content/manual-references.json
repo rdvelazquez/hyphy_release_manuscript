@@ -1,21 +1,21 @@
 [
 {
-  "type": "webpage",
-  "standard_citation": "url:https://github.com/manubot/rootstock",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
+  "type": "article",
+  "standard_citation": "raw:LDA",
+  "URL": "http://www.jmlr.org/papers/v3/blei03a.html",
+  "title": "Latent Dirichlet Allocation",
+  "container-title": "Journal of Machine Learning Research",
   "issued": {
     "date-parts": [
       [
-        2019
+        2003
       ]
     ]
   },
   "author": [
     {
-      "given": "Daniel",
-      "family": "Himmelstein"
+      "given": "David",
+      "family": "Blei"
     }
   ]
 }
