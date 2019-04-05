@@ -8,6 +8,14 @@ keywords:
 lang: en-US
 author_info:
   -
+    github: spond
+    name: Sergei L KosaKovsky Pond
+    initials: SLKP
+    twitter: sergeilkp
+    email: tug23285@temple.edu 
+    affiliations:
+      - Institute for Genomics and Evolutionary Medicine, Temple University
+  -
     github: rdvelazquez
     name: Ryan D Velazquez
     initials: RDV

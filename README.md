@@ -14,8 +14,15 @@ This is an initial, __rough__, working draft of the HyPhy release note for testi
 requires pan-doc `pip install pandoc`  
 `sh build/build.sh` to build the html, md and pdf documents and the references.json in the output dir  
 `cd output`  
-`pandoc manuscript.md -f markdown -t latex -s -o manuscript.tex` creates a LaTeX version of the manuscript  
-{need to document how to convert the references to .bib format}
+`pandoc manuscript.md -f markdown -t latex -s -o manuscript.tex` creates a LaTeX version of the manuscript
+
+Can we generate refs.bib  
+Can we use any of the MBE style files:  
++ cpl-natbib.sty  
++ crop.sty  
++ MBE.cls  
++ natbib.bst  
+
 
 ## Manubot
 
