@@ -661,166 +661,6 @@
     "id": "1DPhLuJmc"
   },
   {
-    "publisher": "Oxford University Press (OUP)",
-    "issue": "6",
-    "DOI": "10.1093/molbev/msy096",
-    "type": "article-journal",
-    "page": "1547-1549",
-    "source": "Crossref",
-    "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
-    "volume": "35",
-    "author": [
-      {
-        "given": "Sudhir",
-        "family": "Kumar"
-      },
-      {
-        "given": "Glen",
-        "family": "Stecher"
-      },
-      {
-        "given": "Michael",
-        "family": "Li"
-      },
-      {
-        "given": "Christina",
-        "family": "Knyaz"
-      },
-      {
-        "given": "Koichiro",
-        "family": "Tamura"
-      }
-    ],
-    "container-title": "Molecular Biology and Evolution",
-    "language": "en",
-    "editor": [
-      {
-        "given": "Fabia Ursula",
-        "family": "Battistuzzi"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          5,
-          2
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gd39d8",
-    "PMCID": "PMC5967553",
-    "PMID": "29722887",
-    "id": "59wIwwiv"
-  },
-  {
-    "publisher": "Oxford University Press (OUP)",
-    "issue": "W1",
-    "DOI": "10.1093/nar/gky379",
-    "type": "article-journal",
-    "page": "W537-W544",
-    "source": "Crossref",
-    "title": "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update",
-    "volume": "46",
-    "author": [
-      {
-        "given": "Enis",
-        "family": "Afgan"
-      },
-      {
-        "given": "Dannon",
-        "family": "Baker"
-      },
-      {
-        "given": "Bérénice",
-        "family": "Batut"
-      },
-      {
-        "given": "Marius",
-        "family": "van den Beek"
-      },
-      {
-        "given": "Dave",
-        "family": "Bouvier"
-      },
-      {
-        "given": "Martin",
-        "family": "Čech"
-      },
-      {
-        "given": "John",
-        "family": "Chilton"
-      },
-      {
-        "given": "Dave",
-        "family": "Clements"
-      },
-      {
-        "given": "Nate",
-        "family": "Coraor"
-      },
-      {
-        "given": "Björn A",
-        "family": "Grüning"
-      },
-      {
-        "given": "Aysam",
-        "family": "Guerler"
-      },
-      {
-        "given": "Jennifer",
-        "family": "Hillman-Jackson"
-      },
-      {
-        "given": "Saskia",
-        "family": "Hiltemann"
-      },
-      {
-        "given": "Vahid",
-        "family": "Jalili"
-      },
-      {
-        "given": "Helena",
-        "family": "Rasche"
-      },
-      {
-        "given": "Nicola",
-        "family": "Soranzo"
-      },
-      {
-        "given": "Jeremy",
-        "family": "Goecks"
-      },
-      {
-        "given": "James",
-        "family": "Taylor"
-      },
-      {
-        "given": "Anton",
-        "family": "Nekrutenko"
-      },
-      {
-        "given": "Daniel",
-        "family": "Blankenberg"
-      }
-    ],
-    "container-title": "Nucleic Acids Research",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          5,
-          22
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gdwxpr",
-    "PMCID": "PMC6030816",
-    "PMID": "29790989",
-    "id": "WBsVRA32"
-  },
-  {
     "publisher": "Public Library of Science (PLoS)",
     "issue": "7",
     "DOI": "10.1371/journal.pgen.1002764",
@@ -879,35 +719,6 @@
     "id": "hI0YJStl"
   },
   {
-    "publisher": "The Open Journal",
-    "issue": "21",
-    "DOI": "10.21105/joss.00514",
-    "type": "article-journal",
-    "page": "514",
-    "source": "Crossref",
-    "title": "phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses",
-    "volume": "3",
-    "author": [
-      {
-        "given": "Stephanie",
-        "family": "J. Spielman"
-      }
-    ],
-    "container-title": "The Journal of Open Source Software",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          1,
-          17
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gfxxzf",
-    "container-title-short": "JOSS",
-    "id": "M8c1F3zk"
-  },
-  {
     "type": "article",
     "URL": "http://www.jmlr.org/papers/v3/blei03a.html",
     "title": "Latent Dirichlet Allocation",
@@ -939,7 +750,7 @@
         [
           "2019",
           4,
-          4
+          5
         ]
       ]
     },

@@ -1,6 +1,19 @@
 {
-  "date": "April 4, 2019",
+  "date": "April 5, 2019",
   "authors": [
+    {
+      "github": "spond",
+      "name": "Sergei L KosaKovsky Pond",
+      "initials": "SLKP",
+      "twitter": "sergeilkp",
+      "email": "tug23285@temple.edu",
+      "affiliations": [
+        "Institute for Genomics and Evolutionary Medicine, Temple University"
+      ],
+      "affiliation_numbers": [
+        1
+      ]
+    },
     {
       "github": "rdvelazquez",
       "name": "Ryan D Velazquez",
@@ -24,15 +37,15 @@
     "repo_slug": "rdvelazquez/hyphy_release_manuscript",
     "repo_owner": "rdvelazquez",
     "repo_name": "hyphy_release_manuscript",
-    "commit": "e31da371b6521a1fb5a200b4dacae02ef0f7f7de"
+    "commit": "80f589932c1b66d0d3fcdc060c7b6de76b181f38"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 18,
+      "doi": 15,
       "raw": 1,
       "url": 1,
-      "total": 20
+      "total": 17
     },
-    "word_count": 1187
+    "word_count": 1367
   }
 }
