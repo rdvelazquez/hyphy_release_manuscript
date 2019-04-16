@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Sergei L KosaKovsky Pond" />
   <meta name="author" content="Ryan D Velazquez" />
-  <meta name="dcterms.date" content="2019-04-05" />
+  <meta name="dcterms.date" content="2019-04-16" />
   <meta name="keywords" content="software, evolution, statistical methods, natural selection" />
   <title>HyPhy - Title TBD</title>
   <style>
@@ -23,14 +23,14 @@
 <header id="title-block-header">
 <h1 class="title">HyPhy - Title TBD</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/80f589932c1b66d0d3fcdc060c7b6de76b181f38/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/80f589932c1b66d0d3fcdc060c7b6de76b181f38">rdvelazquez/hyphy_release_manuscript@80f5899</a> on April 5, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://rdvelazquez.github.io/hyphy_release_manuscript/v/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c/">permalink</a>) was automatically generated from <a href="https://github.com/rdvelazquez/hyphy_release_manuscript/tree/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c">rdvelazquez/hyphy_release_manuscript@71fc08c</a> on April 16, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Sergei L KosaKovsky Pond</strong><br> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/spond">spond</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/sergeilkp">sergeilkp</a><br> <small> Institute for Genomics and Evolutionary Medicine, Temple University </small></p></li>
 <li><p><strong>Ryan D Velazquez</strong><br> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/rdvelazquez">rdvelazquez</a><br> <small> Institute for Genomics and Evolutionary Medicine, Temple University </small></p></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
-<p>Here we announce the latest release of the HyPhy software package. HyPhy is designed for the analysis of genetic sequences using stochastic evolutionary models with common application to understanding the pressures exerted by natural selection. HyPhy is widely used, actively supported, open source and freely available on a multitude of platforms. The codebase is available at <a href="https://github.com/veg/hyphy" class="uri">https://github.com/veg/hyphy</a>. Documentation, tutorials and downloads are available at <a href="https://hyphy.org" class="uri">https://hyphy.org</a>.</p>
+<p>Here we announce the latest release of the HyPhy software package. HyPhy is designed for the analysis of genetic sequences using stochastic evolutionary models with common application to understanding the pressures exerted by natural selection. HyPhy is widely used, actively maintained, open source and freely available on a multitude of platforms. The codebase is available at <a href="https://github.com/veg/hyphy" class="uri">https://github.com/veg/hyphy</a>. Documentation, tutorials and downloads are available at <a href="https://hyphy.org" class="uri">https://hyphy.org</a>.</p>
 <h2 id="introduction">Introduction</h2>
 <p>HyPhy (Hypothesis testing using Phylogenies) is an open source software package for comparative sequence analysis using stochastic evolutionary models. Since its initial release in 2005 <span class="citation" data-cites="OG5Jd8Ck">[<a href="#ref-OG5Jd8Ck">1</a>]</span> HyPhy has become an integral tool for the bioinformatics community with over 10,000 registered users, over 2,000 peer-reviewed citations and approximately 1,000 HyPhy jobs processed each week on the datamonkey web server <span class="citation" data-cites="E9o1eL84 1DlzNU0dT 1DPhLuJmc">[<a href="#ref-E9o1eL84">2</a>,<a href="#ref-1DlzNU0dT">3</a>,<a href="#ref-1DPhLuJmc">4</a>]</span>. Extensions and improvements to the HyPhy package have been ongoing since its inception, with active feedback between users and developers producing new features tailored to the specific needs of the research community. Here we announce the release of the newest version of HyPhy (version 2.4.0) and document how the software has been (1) packaged for easy use in a variety of settings (2) optimized for larger datasets (3) redesigned to follow modern bioinformatics best practices and (4) extended to include a broader set of standard analyses.</p>
 <h2 id="packaged-for-easy-use-in-a-variety-of-settings">Packaged for Easy Use in a Variety of Settings</h2>
@@ -150,27 +150,26 @@
 <p>The inner workings of HyPhy have also been improved, providing a more reliable package that is easier to extend. To this end, namespacing has been introduced. Before, all variables were automatically declared at a global scope. Namespaces helped facilitated the refactoring and standardization of the template batch files for easier comprehension and reuse.<br />
 Additionally, extensive automated testing has been implemented. The automated testing is executed as a part of a continuous integration (CI) pipeline which which both expedites development and helps ensure healthy software is delivered. The automated testing includes: unit tests for over 90% of HBL functions, method tests on all the core analyses and likelihood testing <span class="citation" data-cites="MOcKAui8">[<a href="#ref-MOcKAui8">9</a>]</span> which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified.</p>
 <h2 id="extended-to-include-a-broader-set-of-standard-analyses">Extended to Include a Broader Set of Standard Analyses</h2>
-<p>Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. These analyses can be executed in the various places HyPhy is available and include (in alphabetical order):</p>
+<p>Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. These analyses can be executed in the various places HyPhy is available and include:</p>
 <ul>
-<li>aBSREL <span class="citation" data-cites="w4iHLQCq hX6CSnea">[<a href="#ref-w4iHLQCq">10</a>,<a href="#ref-hX6CSnea">11</a>]</span> (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches<br />
+<li><strong>aBSREL</strong> <span class="citation" data-cites="w4iHLQCq hX6CSnea">[<a href="#ref-w4iHLQCq">10</a>,<a href="#ref-hX6CSnea">11</a>]</span> (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches<br />
 </li>
-<li>BGM <span class="citation" data-cites="V35tv36N">[<a href="#ref-V35tv36N">12</a>]</span> (Bayesian Graphical Models) - Testing for co-evolving sites<br />
+<li><strong>BGM</strong> <span class="citation" data-cites="V35tv36N">[<a href="#ref-V35tv36N">12</a>]</span> (Bayesian Graphical Models) - Testing for co-evolving sites<br />
 </li>
-<li>BUSTED <span class="citation" data-cites="13wl6FKEJ">[<a href="#ref-13wl6FKEJ">13</a>]</span> (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages<br />
+<li><strong>BUSTED</strong> <span class="citation" data-cites="13wl6FKEJ">[<a href="#ref-13wl6FKEJ">13</a>]</span> (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages<br />
 </li>
-<li>FADE (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection<br />
+<li><strong>FADE</strong> (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection (not yet published)</li>
+<li><strong>FEL</strong> <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">14</a>]</span> (Fixed Effects Likelihood) - Inferring non-synoymous and synonymous substitution rates on a per-site basis for smaller datasets using maximum likelihood<br />
 </li>
-<li>FEL <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">14</a>]</span> (Fixed Effects Likelihood) - Inferring non-synoymous and synonymous substitution rates on a per-site basis for smaller datasets using maximum likelihood<br />
+<li><strong>FUBAR</strong> <span class="citation" data-cites="BLiAMJec">[<a href="#ref-BLiAMJec">6</a>]</span>(Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods<br />
 </li>
-<li>FUBAR (Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods<br />
+<li><strong>GARD</strong> <span class="citation" data-cites="PTZuTBNs">[<a href="#ref-PTZuTBNs">15</a>]</span> (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination<br />
 </li>
-<li>GARD <span class="citation" data-cites="PTZuTBNs">[<a href="#ref-PTZuTBNs">15</a>]</span> (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination<br />
+<li><strong>MEME</strong> <span class="citation" data-cites="hI0YJStl">[<a href="#ref-hI0YJStl">16</a>]</span> (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection<br />
 </li>
-<li>MEME <span class="citation" data-cites="hI0YJStl">[<a href="#ref-hI0YJStl">16</a>]</span> (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection<br />
+<li><strong>RELAX</strong> <span class="citation" data-cites="OpDB3a8r">[<a href="#ref-OpDB3a8r">17</a>]</span> - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches<br />
 </li>
-<li>RELAX <span class="citation" data-cites="OpDB3a8r">[<a href="#ref-OpDB3a8r">17</a>]</span> - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches<br />
-</li>
-<li>SLAC <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">14</a>]</span> (SingleLikelihood Ancestor Counting) - Infer non-synonymous and synonymous substitution rates on a per-site basis</li>
+<li><strong>SLAC</strong> <span class="citation" data-cites="1AP8NmEKg">[<a href="#ref-1AP8NmEKg">14</a>]</span> (SingleLikelihood Ancestor Counting) - Infer non-synonymous and synonymous substitution rates on a per-site basis</li>
 </ul>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
