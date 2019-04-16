@@ -2,7 +2,7 @@
 author-meta:
 - Sergei L KosaKovsky Pond
 - Ryan D Velazquez
-date-meta: '2019-04-05'
+date-meta: '2019-04-16'
 keywords:
 - software
 - evolution
@@ -19,10 +19,10 @@ title: HyPhy - Title TBD
 
 <small><em>
 This manuscript
-([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/80f589932c1b66d0d3fcdc060c7b6de76b181f38/))
+([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c/))
 was automatically generated
-from [rdvelazquez/hyphy_release_manuscript@80f5899](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/80f589932c1b66d0d3fcdc060c7b6de76b181f38)
-on April 5, 2019.
+from [rdvelazquez/hyphy_release_manuscript@71fc08c](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c)
+on April 16, 2019.
 </em></small>
 
 ## Authors
@@ -51,7 +51,7 @@ on April 5, 2019.
 
 Here we announce the latest release of the HyPhy software package.
 HyPhy is designed for the analysis of genetic sequences using stochastic evolutionary models with common application to understanding the pressures exerted by natural selection.
-HyPhy is widely used, actively supported, open source and freely available on a multitude of platforms. 
+HyPhy is widely used, actively maintained, open source and freely available on a multitude of platforms. 
 The codebase is available at <https://github.com/veg/hyphy>. 
 Documentation, tutorials and downloads are available at <https://hyphy.org>.
 
@@ -111,18 +111,18 @@ The automated testing includes: unit tests for over 90% of HBL functions, method
 
 Although the HyPhy package provides for limitless customization via writing HBL scripts, users can run many common analyses without needing to concern themselves with the HBL at all. 
 The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. 
-These analyses can be executed in the various places HyPhy is available and include (in alphabetical order):  
+These analyses can be executed in the various places HyPhy is available and include:  
   
-+ aBSREL [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches  
-+ BGM [@V35tv36N] (Bayesian Graphical Models) - Testing for co-evolving sites  
-+ BUSTED [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages  
-+ FADE (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection  
-+ FEL [@1AP8NmEKg] (Fixed Effects Likelihood) - Inferring non-synoymous and synonymous substitution rates on a per-site basis for smaller datasets using maximum likelihood  
-+ FUBAR (Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods  
-+ GARD [@PTZuTBNs] (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination  
-+ MEME [@hI0YJStl] (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection  
-+ RELAX [@OpDB3a8r] - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches  
-+ SLAC [@1AP8NmEKg] (SingleLikelihood Ancestor Counting) - Infer non-synonymous and synonymous substitution rates on a per-site basis 
++ __aBSREL__ [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches  
++ __BGM__ [@V35tv36N] (Bayesian Graphical Models) - Testing for co-evolving sites  
++ __BUSTED__ [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages  
++ __FADE__ (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection (not yet published) 
++ __FEL__ [@1AP8NmEKg] (Fixed Effects Likelihood) - Inferring non-synoymous and synonymous substitution rates on a per-site basis for smaller datasets using maximum likelihood  
++ __FUBAR__ [@BLiAMJec](Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods  
++ __GARD__ [@PTZuTBNs] (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination  
++ __MEME__ [@hI0YJStl] (Mixed Effects Model of Evolution) - Test the hypothesis that individual sites have been subject to episodic positive/diversifying selection  
++ __RELAX__ [@OpDB3a8r] - Evaluate whether the strength of natural selection has been relaxed or intensified along a specific set of branches  
++ __SLAC__ [@1AP8NmEKg] (SingleLikelihood Ancestor Counting) - Infer non-synonymous and synonymous substitution rates on a per-site basis 
 
 ## References {.page_break_before}
 

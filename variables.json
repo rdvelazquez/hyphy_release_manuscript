@@ -1,5 +1,5 @@
 {
-  "date": "April 5, 2019",
+  "date": "April 16, 2019",
   "authors": [
     {
       "github": "spond",
@@ -37,7 +37,7 @@
     "repo_slug": "rdvelazquez/hyphy_release_manuscript",
     "repo_owner": "rdvelazquez",
     "repo_name": "hyphy_release_manuscript",
-    "commit": "80f589932c1b66d0d3fcdc060c7b6de76b181f38"
+    "commit": "71fc08c31d7e2e380300b2b5ea7c82cb12010e9c"
   },
   "manuscript_stats": {
     "reference_counts": {
