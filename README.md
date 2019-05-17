@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/gh-pages) branch hosts the contents of this directory at https://rdvelazquez.github.io/hyphy_release_manuscript/.
-The permalink for this webpage version is https://rdvelazquez.github.io/hyphy_release_manuscript/v/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c/.
+The permalink for this webpage version is https://rdvelazquez.github.io/hyphy_release_manuscript/v/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://rdvelazquez.github.io/hyphy_release_manuscript/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`71fc08c31d7e2e380300b2b5ea7c82cb12010e9c`](https://github.com/rdvelazquez/hyphy_release_manuscript/commit/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c).
+[`97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52`](https://github.com/rdvelazquez/hyphy_release_manuscript/commit/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52).
