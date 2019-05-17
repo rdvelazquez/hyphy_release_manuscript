@@ -2,7 +2,7 @@
 author-meta:
 - Sergei L KosaKovsky Pond
 - Ryan D Velazquez
-date-meta: '2019-04-16'
+date-meta: '2019-05-17'
 keywords:
 - software
 - evolution
@@ -19,10 +19,10 @@ title: HyPhy - Title TBD
 
 <small><em>
 This manuscript
-([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c/))
+([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52/))
 was automatically generated
-from [rdvelazquez/hyphy_release_manuscript@71fc08c](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/71fc08c31d7e2e380300b2b5ea7c82cb12010e9c)
-on April 16, 2019.
+from [rdvelazquez/hyphy_release_manuscript@97d773a](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52)
+on May 17, 2019.
 </em></small>
 
 ## Authors
@@ -60,7 +60,7 @@ Documentation, tutorials and downloads are available at <https://hyphy.org>.
 HyPhy (Hypothesis testing using Phylogenies) is an open source software package for comparative sequence analysis using stochastic evolutionary models. 
 Since its initial release in 2005 [@OG5Jd8Ck] HyPhy has become an integral tool for the bioinformatics community with over 10,000 registered users, over 2,000 peer-reviewed citations and approximately 1,000 HyPhy jobs processed each week on the datamonkey web server [@E9o1eL84; @1DlzNU0dT; @1DPhLuJmc]. 
 Extensions and improvements to the HyPhy package have been ongoing since its inception, with active feedback between users and developers producing new features tailored to the specific needs of the research community. 
-Here we announce the release of the newest version of HyPhy (version 2.4.0) and document how the software has been (1) packaged for easy use in a variety of settings (2) optimized for larger datasets (3) redesigned to follow modern bioinformatics best practices and (4) extended to include a broader set of standard analyses.
+Here we announce the release of the newest version of HyPhy (version 2.4) and document how the software has been (1) packaged for easy use in a variety of settings (2) optimized for larger datasets (3) redesigned to follow modern bioinformatics best practices and (4) extended to include a broader set of standard analyses.
 
 ## Packaged for Easy Use in a Variety of Settings
 
@@ -84,8 +84,6 @@ To meet the needs of this divers user set, HyPhy has been packaged and distribut
 HyPhy has been optimized to analyze datasets with thousands of sequences and tens of thousands of sites. 
 This optimization was accomplished by (1) integrating recent algorithmic advances from the fields of machine learning and natural language processing [@TkofEaUO] into the core c++ implementation (2) incorporating fast Bayesian methods [@BLiAMJec] (3) developing parallel implementations for commute intensive processes and (4) providing high performance computing infrastructure[@E9o1eL84; @1DlzNU0dT; @1DPhLuJmc] free of charge to the global community, helping to democratize access to scientific computing resources [@16bcy34vy].
 
-_(performance numbers...)_
-
 ## Redesigned to Follow Modern Bioinformatics Best Practices
 
 The design of the original HyPhy implementation emphasized convenient writing and execution of single HyPhy Batch Language (HBL) scripts. 
@@ -95,17 +93,17 @@ As the common use of HyPhy has shifted over the last decade from one-off analyse
 HyPhy has therefore been redesigned to address the requirements of these changing use cases.   
 
 Usage as a typical command line tool (i.e. an executable name followed by key word arguments) has been added alongside the interactive command line prompt. 
-This change, along with the ability to use relative paths to files, has made using HyPhy in pipelines and batch analyses much more seamless.
+This change, along with the ability to use relative paths to files, has made using HyPhy in pipelines and batch analyses seamless.
 In addition to being easier to use, the package is also now easier to install. HyPhy is now installable with bioconda [@sYguBb3Q] which has become the defacto package manager for scientific software. Users no longer need to concern themselves with dependencies, environments and build processes but can simply `conda install hyphy`.
 
 
 The inner workings of HyPhy have also been improved, providing a more reliable package that is easier to extend.
 To this end, namespacing has been introduced.
 Before, all variables were automatically declared at a global scope. 
-Namespaces helped facilitated the refactoring and standardization of the template batch files for easier comprehension and reuse.  
+Namespaces helped facilitate the refactoring and standardization of the template batch files for easier comprehension and reuse.
 Additionally, extensive automated testing has been implemented.
 The automated testing is executed as a part of a continuous integration (CI) pipeline which which both expedites development and helps ensure healthy software is delivered.
-The automated testing includes: unit tests for over 90% of HBL functions, method tests on all the core analyses and likelihood testing [@MOcKAui8] which compares the likelihood values calculated by HyPhy with other popular maximum-likelihood software packages and informs the developers if discrepancies are identified.
+The automated testing includes: unit tests for over 90% of HBL functions, method tests on all the core analyses, and likelihood testing [@MOcKAui8] which compares the likelihood values calculated by HyPhy with values calculated by other popular maximum-likelihood software packages and informs the developers if discrepancies are identified.
 
 ## Extended to Include a Broader Set of Standard Analyses
 
@@ -113,10 +111,10 @@ Although the HyPhy package provides for limitless customization via writing HBL 
 The HyPhy package comes with pre-written HBL scripts for easily performing some of the most commonly used analyses. 
 These analyses can be executed in the various places HyPhy is available and include:  
   
-+ __aBSREL__ [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detecting positive selection at individual branches  
-+ __BGM__ [@V35tv36N] (Bayesian Graphical Models) - Testing for co-evolving sites  
-+ __BUSTED__ [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Testing gene-wide selection at pre-defined lineages  
-+ __FADE__ (FUBAR Approach to Directional Evolution) - Evaluating if sites are subject to directional selection (not yet published) 
++ __aBSREL__ [@w4iHLQCq; @hX6CSnea] (adaptive Branch-Site Random Effects Likelihood) - Detect positive/diversifying selection at individual branches  
++ __BGM__ [@V35tv36N] (Bayesian Graphical Models) - Test for co-evolving sites  
++ __BUSTED__ [@13wl6FKEJ] (Branch-Site Unrestricted Statistical Test for Episodic Diversification) - Test gene-wide selection at pre-defined lineages  
++ __FADE__ (FUBAR Approach to Directional Evolution) - Evaluate if sites are subject to directional selection (not yet published) 
 + __FEL__ [@1AP8NmEKg] (Fixed Effects Likelihood) - Inferring non-synoymous and synonymous substitution rates on a per-site basis for smaller datasets using maximum likelihood  
 + __FUBAR__ [@BLiAMJec](Fast, Unconstrained Bayesian AppRoximation) - Infer non-synonymous and synonymous substitution rates on a per-site basis for larger datasets using Bayesian methods  
 + __GARD__ [@PTZuTBNs] (Genetic Algorithm for Recombination Detection) - Screen multiple sequence alignment for recombination  
