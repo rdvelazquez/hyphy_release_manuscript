@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: hyphy2.5.aux
+The style file: natbib.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "xx"
+Warning--I didn't find a database entry for "darriba2018state"
+Warning--empty journal in team2013r
+You've used 7 entries,
+            2378 wiz_defined-function locations,
+            576 strings with 5689 characters,
+and the built_in function-call counts, 4005 in all, are:
+= -- 353
+> -- 280
+< -- 3
++ -- 87
+- -- 85
+* -- 407
+:= -- 704
+add.period$ -- 35
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 8
+duplicate$ -- 148
+empty$ -- 242
+format.name$ -- 93
+if$ -- 776
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 37
+num.names$ -- 28
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 42
+quote$ -- 0
+skip$ -- 92
+stack$ -- 0
+substring$ -- 252
+swap$ -- 31
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 63
+warning$ -- 1
+while$ -- 33
+width$ -- 0
+write$ -- 91
+(There were 3 warnings)

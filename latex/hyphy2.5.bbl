@@ -1,0 +1,49 @@
+\begin{thebibliography}{}
+
+\bibitem[Blei {\em et~al.}(2003)Blei, Ng, and Jordan]{blei2003latent}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. 2003.
+\newblock Latent dirichlet allocation.
+\newblock {\em Journal of machine Learning research\/}, {3}(Jan): 993--1022.
+
+\bibitem[Bouckaert {\em et~al.}(2014)Bouckaert, Heled, K{\"u}hnert, Vaughan,
+  Wu, Xie, Suchard, Rambaut, and Drummond]{bouckaert2014beast}
+Bouckaert, R., Heled, J., K{\"u}hnert, D., Vaughan, T., Wu, C.-H., Xie, D.,
+  Suchard, M.~A., Rambaut, A., and Drummond, A.~J. 2014.
+\newblock Beast 2: a software platform for bayesian evolutionary analysis.
+\newblock {\em PLoS computational biology\/}, {10}(4): e1003537.
+
+\bibitem[H{\"o}hna {\em et~al.}(2016)H{\"o}hna, Landis, Heath, Boussau,
+  Lartillot, Moore, Huelsenbeck, and Ronquist]{hohna2016revbayes}
+H{\"o}hna, S., Landis, M.~J., Heath, T.~A., Boussau, B., Lartillot, N., Moore,
+  B.~R., Huelsenbeck, J.~P., and Ronquist, F. 2016.
+\newblock Revbayes: Bayesian phylogenetic inference using graphical models and
+  an interactive model-specification language.
+\newblock {\em Systematic Biology\/}, {65}(4): 726--736.
+
+\bibitem[Murrell {\em et~al.}(2013)Murrell, Moola, Mabona, Weighill, Sheward,
+  Kosakovsky~Pond, and Scheffler]{murrell2013fubar}
+Murrell, B., Moola, S., Mabona, A., Weighill, T., Sheward, D., Kosakovsky~Pond,
+  S.~L., and Scheffler, K. 2013.
+\newblock Fubar: a fast, unconstrained bayesian approximation for inferring
+  selection.
+\newblock {\em Molecular biology and evolution\/}, {30}(5): 1196--1205.
+
+\bibitem[Stamatakis(2019)Stamatakis]{stamatakis2019review}
+Stamatakis, A. 2019.
+\newblock A review of approaches for optimizing phylogenetic likelihood
+  calculations.
+\newblock In {\em Bioinformatics and Phylogenetics\/}, pages 1--19. Springer.
+
+\bibitem[Team {\em et~al.}(2013)Team {\em et~al.}]{team2013r}
+Team, R.~C. {\em et~al.} 2013.
+\newblock R: A language and environment for statistical computing.
+
+\bibitem[Weaver {\em et~al.}(2018)Weaver, Shank, Spielman, Li, Muse, and
+  Kosakovsky~Pond]{weaver2018datamonkey}
+Weaver, S., Shank, S.~D., Spielman, S.~J., Li, M., Muse, S.~V., and
+  Kosakovsky~Pond, S.~L. 2018.
+\newblock Datamonkey 2.0: a modern web application for characterizing selective
+  and other evolutionary processes.
+\newblock {\em Molecular biology and evolution\/}, {35}(3): 773--777.
+
+\end{thebibliography}
