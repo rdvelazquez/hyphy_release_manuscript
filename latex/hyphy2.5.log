@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  22 MAY 2019 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  22 MAY 2019 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,8 +551,8 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <10.5> not available
 (Font)              size <10.95> substituted on input line 78.
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 67--89
-\OT1/cmr/m/m/10.95 evolutionary models. It is written it C++
+Underfull \hbox (badness 3128) in paragraph at lines 67--89
+\OT1/cmr/m/m/10.95 evolutionary models. It is written in C++
  []
 
 
@@ -689,9 +689,14 @@ tt/m/n/10.95 hyphy . org$\OT1/cmr/m/m/10.95 , and
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 90--96
-\OT1/cmr/m/m/10.95 analyses is available at $\OT1/cmtt/m/n/10.95 www . datamonk
-ey . org$
+Underfull \hbox (badness 4543) in paragraph at lines 90--96
+\OT1/cmr/m/m/10.95 module -- at $\OT1/cmtt/m/n/10.95 github . com / veg / hyphy
+-[]vision$
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 90--96
+\OT1/cmr/m/m/10.95 implementing the most popular analyses is
  []
 
 
@@ -1099,4 +1104,4 @@ Here is how much of TeX's memory you used:
  1150 hyphenation exceptions out of 8191
  37i,15n,34p,787b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hyphy2.5.dvi (6 pages, 27404 bytes).
+Output written on hyphy2.5.dvi (6 pages, 27428 bytes).
