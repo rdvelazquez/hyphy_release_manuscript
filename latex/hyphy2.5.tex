@@ -122,14 +122,15 @@ routines take advantage of vector processing (SIMD), multiprocessing (OpenMP),
 and distributed systems (OpenMPI) for fine and coarse-grain parallelization as
 appropriate to a specific analysis. We found that the majority of popular
 analyses implemented in \hyphy{} do not significantly benefit from GPU
-acceleration \cite{stamatakis2019review}, hence we currently do not offer this capability.
-Even when fully accelerated, phylogenetic likelihood calculation for complex
-models on large datasets remains a bottleneck which cannot be overcome with more
-code tuning. However, we were able to integrate recent algorithmic advances from
-the fields of machine learning and natural language processing \cite{blei2003latent} to
-limit the number of expensive likelihood calculations for the key application of
-high-throughput screening of alignments thousands of sequences for evidence of
-natural selection \cite{murrell2013fubar}. Finally, we provide high performance computing
+acceleration \cite{stamatakis2019review}, hence we currently do not offer this
+capability.  Even when fully accelerated, phylogenetic likelihood calculation
+for complex models on large datasets remains a bottleneck which cannot be
+overcome with more code tuning. However, we were able to integrate recent
+algorithmic advances from the fields of machine learning and natural language
+processing \cite{blei2003latent} to limit the number of expensive likelihood
+calculations for the key application of high-throughput screening of alignments
+consisting of thousands of sequences for evidence of natural selection
+\cite{murrell2013fubar}. Finally, we provide high performance computing
 infrastructure[@doi:10.1093/bioinformatics/bti320;
 @doi:10.1093/bioinformatics/btq429; @doi:10.1093/molbev/msx335] free of charge
 to the global community, helping to democratize access to scientific computing
