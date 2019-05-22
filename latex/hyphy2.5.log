@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  22 MAY 2019 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  22 MAY 2019 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,13 +865,18 @@ Package natbib Warning: Citation `darriba2018state' on page 4 undefined on inpu
 t line 186.
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 184--197
-\OT1/cmr/m/m/10.95 cycle; a recent study shows this to be an
+Underfull \hbox (badness 1460) in paragraph at lines 184--197
+\OT1/cmr/m/m/10.95 Software quality control and rigorous testing
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 184--197
-\OT1/cmr/m/m/10.95 integration (CI) pipeline which which both
+Underfull \hbox (badness 2368) in paragraph at lines 184--197
+\OT1/cmr/m/m/10.95 are expected to be a part of any modern
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 184--197
+\OT1/cmr/m/m/10.95 extensive automated testing as a part of a
  []
 
 
@@ -1088,4 +1093,4 @@ Here is how much of TeX's memory you used:
  1150 hyphenation exceptions out of 8191
  37i,15n,34p,787b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hyphy2.5.dvi (6 pages, 27512 bytes).
+Output written on hyphy2.5.dvi (6 pages, 27496 bytes).
