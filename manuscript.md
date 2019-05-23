@@ -2,7 +2,7 @@
 author-meta:
 - Sergei L KosaKovsky Pond
 - Ryan D Velazquez
-date-meta: '2019-05-17'
+date-meta: '2019-05-23'
 keywords:
 - software
 - evolution
@@ -19,10 +19,10 @@ title: HyPhy - Title TBD
 
 <small><em>
 This manuscript
-([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52/))
+([permalink](https://rdvelazquez.github.io/hyphy_release_manuscript/v/1c08932639e27ada60e607ee2c6bce0da1579e93/))
 was automatically generated
-from [rdvelazquez/hyphy_release_manuscript@97d773a](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/97d773ae8c261591a1ddbf9f7b7a2456dbfb2b52)
-on May 17, 2019.
+from [rdvelazquez/hyphy_release_manuscript@1c08932](https://github.com/rdvelazquez/hyphy_release_manuscript/tree/1c08932639e27ada60e607ee2c6bce0da1579e93)
+on May 23, 2019.
 </em></small>
 
 ## Authors
